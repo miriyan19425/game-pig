@@ -19,5 +19,14 @@ main {
 section{
 	width: 40vw;
 	height: 75vh;
-    background-color: seagreen;
+    	background-color: seagreen;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+p {
+	padding: 1rem;
+	font-size: 2rem;
 }
