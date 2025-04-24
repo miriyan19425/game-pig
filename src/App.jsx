@@ -4,8 +4,8 @@ function App() {
    
   return  (
     <main>
-      <GameBoard />
-      <GameBoard />
+      <GameBoard playerName='PLAYER 1' />
+      <GameBoard playerName='PLAYER 2' />
     </main>
   ); 
 }
