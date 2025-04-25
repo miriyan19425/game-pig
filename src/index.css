@@ -19,14 +19,38 @@ main {
 section{
 	width: 40vw;
 	height: 75vh;
-    	background-color: seagreen;
+    background-color: seagreen;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
 	align-items: center;
 }
 
-p {
-	padding: 1rem;
+img{
+	width: 10rem;
+	height:10rem;
+	object-fit: cover;	 
+} 
+
+button, .name, .zero, .savedPoints {
+	margin: 1rem;
+	padding: 1.5rem;
 	font-size: 2rem;
+	color: white;	
+}
+
+button, .name {
+	border-radius: 5px;
+}
+
+.zero, .savedPoints{
+	border-radius: 50%; 
+}
+
+button, .name, .savedPoints {
+	background-color: forestgreen;
+}
+
+.zero{
+	background-color: red;
 }
