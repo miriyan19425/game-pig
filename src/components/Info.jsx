@@ -1,5 +1,5 @@
-function Info({info}){
-    return <p>{info}</p>;
+function Info({children, clN}){
+    return <p className={clN}>{children}</p>;
 }
 
 export default Info;
