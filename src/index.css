@@ -32,7 +32,7 @@ img{
 	object-fit: cover;	 
 } 
 
-button, .name, .zero, .nonzero, .savedPoints {
+button, .name, .zero, .nonzero, .saved {
 	margin: 1rem;
 	padding: 1.5rem;
 	font-size: 2rem;
@@ -43,11 +43,11 @@ button, .name {
 	border-radius: 5px;
 }
 
-.zero, .nonzero, .savedPoints{
+.zero, .nonzero, .saved{
 	border-radius: 50%; 
 }
 
-button, .name, .savedPoints {
+button, .name, .saved {
 	background-color: forestgreen;
 }
 
