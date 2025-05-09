@@ -58,3 +58,19 @@ button, .name, .saved {
 .nonzero{
 	background-color: blue;
 }
+
+.modal {
+	border: none;
+	border-radius: 3px;
+	padding: 1rem;
+	left: 40%; 
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+
+h1{
+	font-size: 3rem; 
+	padding: 3rem;
+}
