@@ -1,9 +1,11 @@
+import Button from './Button';
+
 function WinnerModal({ name, handleNewGame }) {
   return (
     <dialog className="modal" open>
       <h1>{name} wins!</h1>
       <form method="dialog">
-        <button className='button' onClick={handleNewGame}>New Game</button>
+        <Button handleClick={handleNewGame}>New Game</Button>
       </form>
     </dialog>
   );
