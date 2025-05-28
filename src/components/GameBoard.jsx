@@ -5,7 +5,7 @@ import Button from './Button';
 function GameBoard({playerName, points, unsavedPoints, savedPoints, handleSavedPoints, handleUnsavedPoints}){
     
     return (
-        <section>
+        <section className='board'>
             <Info clN='name'>{playerName}</Info>
             <DieImg diePoints={points} />
             <Info clN={unsavedPoints === 0 ? 'zero' : 'nonzero'}>{unsavedPoints}</Info>
