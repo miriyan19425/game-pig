@@ -1,0 +1,36 @@
+.board{
+	width: 40vw;
+	height: 75vh;
+  background-color: seagreen;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.name {
+	border-radius: 5px;
+}
+
+.name, .saved {
+	background-color: forestgreen;
+}
+
+.name, .saved, .zero, .nonzero {
+	margin: 1rem;
+	padding: 1.5rem;
+	font-size: 2rem;
+	color: white;	
+}
+
+.zero, .nonzero, .saved{
+	border-radius: 50%; 
+}
+
+.zero{
+	background-color: red;
+}
+
+.nonzero{
+	background-color: blue;
+}
