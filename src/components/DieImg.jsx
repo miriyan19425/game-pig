@@ -9,7 +9,7 @@ const dieImages = [One, Two, Three, Four, Five, Six];
 
 function DieImg({ diePoints }) {
   if (diePoints < 1 || diePoints > 6) return null; // Handle invalid diePoints
-  return <img src={dieImages[diePoints - 1]} alt={`Die showing ${diePoints}`} />;
+  return <img src={dieImages[diePoints - 1]} alt={`Die showing ${diePoints}`} className='die-image'/>;
 }
 
 export default DieImg;
