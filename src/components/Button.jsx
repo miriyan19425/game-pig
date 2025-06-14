@@ -1,5 +1,7 @@
+import styles from './Button.module.css';
+
 function Button({children, handleClick}){
-	return <button type='button' onClick={handleClick} className='button'>{children}</button>;
+	return <button className={styles.button} type='button' onClick={handleClick}>{children}</button>;
 }
 
 export default Button;
